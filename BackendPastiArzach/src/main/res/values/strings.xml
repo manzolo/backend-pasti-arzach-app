@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Cucina ARZACH</string>
+    <string name="action_settings">Settings</string>
+    <string name="lblMatricola">Matricola</string>
+    <string name="lblPassword">Password</string>
+    <string name="btnAccedi">Accedi</string>
+    <string name="title_activity_menu">Gestione MENU</string>
+    <string name="title_activity_standard">StandardActivity</string>
+    <string name="title_activity_home">ARZACH</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_riepilogo_giornaliero">Invio mail riepilogo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="txtmailoggetto">Ordine odierno del Comune</string>
+    <string name="title_pagamento_list">Pagamenti</string>
+    <string name="title_pagamento_detail">Pagamento Detail</string>
+    <string name="title_activity_pagamenti">Pagamenti</string>
+
+</resources>

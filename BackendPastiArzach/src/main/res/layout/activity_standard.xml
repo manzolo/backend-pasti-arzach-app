@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".StandardActivity">
+
+    <ImageButton
+        android:id="@+id/btnChiudiMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:onClick="chiudiMenu"
+        android:src="@drawable/m_chiudimenu" />
+
+    <ImageButton
+        android:id="@+id/btnHome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/btnApriMenu"
+        android:onClick="goHome"
+        android:src="@drawable/m_home"
+        android:visibility="gone" />
+
+    <ImageButton
+        android:id="@+id/btnApriMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/btnSospendiMenu"
+        android:onClick="apriMenu"
+        android:src="@drawable/m_aprimenu" />
+
+    <ImageButton
+        android:id="@+id/btnSospendiMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnChiudiMenu"
+        android:layout_centerHorizontal="true"
+        android:onClick="sospendiMenu"
+        android:src="@drawable/m_sospendimenu" />
+
+</RelativeLayout>

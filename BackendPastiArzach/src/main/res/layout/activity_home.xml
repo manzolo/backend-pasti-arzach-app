@@ -1,0 +1,82 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".HomeActivity">
+
+    <include
+        android:id="@+id/StatoBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        layout="@layout/activity_standard" />
+
+    <ImageButton
+        android:id="@+id/btnAddMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/StatoBar"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/m_inseriscimenuodierno" />
+
+    <TextView
+        android:id="@+id/txtInserisci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnAddMenu"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/btnAddMenu"
+        android:layout_toRightOf="@+id/btnAddMenu"
+        android:gravity="center"
+        android:onClick="inserisciMenu"
+        android:text="Inserisci il Menu"
+        android:textSize="25dp" />
+
+    <ImageButton
+        android:id="@+id/btnRiepilogoGiornaliero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnAddMenu"
+        android:layout_toLeftOf="@+id/txtInserisci"
+        android:src="@drawable/m_riepilogogiornaliero" />
+
+    <TextView
+        android:id="@+id/txtRiepilogoGiornaliero"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnRiepilogoGiornaliero"
+        android:layout_alignLeft="@+id/txtInserisci"
+        android:layout_alignRight="@+id/txtInserisci"
+        android:layout_alignTop="@+id/btnRiepilogoGiornaliero"
+        android:gravity="center"
+        android:onClick="inserisciMenu"
+        android:text="Riep. Giornaliero"
+        android:textSize="25dp" />
+
+    <ImageButton
+        android:id="@+id/btnPagamenti"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnRiepilogoGiornaliero"
+        android:layout_toLeftOf="@+id/txtRiepilogoGiornaliero"
+        android:src="@drawable/m_inserisci_pagamenti" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnPagamenti"
+        android:layout_alignLeft="@+id/txtRiepilogoGiornaliero"
+        android:layout_alignRight="@+id/txtRiepilogoGiornaliero"
+        android:layout_alignTop="@+id/btnPagamenti"
+        android:gravity="center"
+        android:onClick="inserisciMenu"
+        android:text="Pagamenti"
+        android:textSize="25dp" />
+
+</RelativeLayout>

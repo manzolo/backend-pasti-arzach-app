@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="it.manzolo.backendpastiarzach"
+    android:versionCode="1"
+    android:versionName="1.0011">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="it.manzolo.backendpastiarzach.ui.MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="it.manzolo.backendpastiarzach.ui.MenuActivity"
+            android:label="@string/title_activity_menu"></activity>
+        <activity
+            android:name="it.manzolo.backendpastiarzach.StandardActivity"
+            android:label="@string/title_activity_standard"></activity>
+        <activity
+            android:name="it.manzolo.backendpastiarzach.ui.HomeActivity"
+            android:label="@string/title_activity_home"></activity>
+        <activity
+            android:name="it.manzolo.backendpastiarzach.RiepilogoGiornalieroActivity"
+            android:label="@string/title_activity_riepilogo_giornaliero"></activity>
+        <activity
+            android:name="it.manzolo.backendpastiarzach.ui.PagamentiActivity"
+            android:label="@string/title_activity_pagamenti"></activity>
+    </application>
+
+</manifest>

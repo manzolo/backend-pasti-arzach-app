@@ -1,0 +1,44 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/grpMainMenu"
+        android:enabled="true"
+        android:visible="true"
+        android:orderInCategory="10">
+        <item
+            android:id="@+id/menu"
+            android:visible="true"
+            android:title="Menu"
+            android:enabled="true"
+            android:orderInCategory="10">
+            <menu>
+                <item
+                    android:id="@+id/openAddMenu"
+                    android:visible="true"
+                    android:title="Inserisci Menu"
+                    android:orderInCategory="10"></item>
+            </menu>
+        </item>
+    </group>
+
+    <group
+        android:id="@+id/grpRiepilogo"
+        android:enabled="true"
+        android:visible="true"
+        android:orderInCategory="20">
+        <item
+            android:id="@+id/grpMainRiepiloghi"
+            android:visible="true"
+            android:title="Riepiloghi"
+            android:enabled="true"
+            android:orderInCategory="10">
+            <menu>
+                <item
+                    android:id="@+id/openRiepilogoGiornaliero"
+                    android:visible="true"
+                    android:title="Riepilogo giornaliero"
+                    android:enabled="true"
+                    android:orderInCategory="10"></item>
+            </menu>
+        </item>
+    </group>
+</menu>
