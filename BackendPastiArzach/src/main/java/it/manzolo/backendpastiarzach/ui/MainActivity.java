@@ -96,7 +96,6 @@ public class MainActivity extends Activity {
                 //Si salva un oggetto con le credenziali
                 saveLoginInformation(matricola, password);
                 Intent intent = new Intent(this, HomeActivity.class);
-                // Log.i(MainActivity.class.getName(), message);
                 intent.putExtra("matricola", matricola);
                 startActivity(intent);
             } else {
