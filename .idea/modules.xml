@@ -3,8 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BackendPastiArzach/BackendPastiArzach.iml" filepath="$PROJECT_DIR$/BackendPastiArzach/BackendPastiArzach.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BackendPastiArzachProject.iml" filepath="$PROJECT_DIR$/BackendPastiArzachProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backend-pasti-arzach-app.iml" filepath="$PROJECT_DIR$/backend-pasti-arzach-app.iml" />
     </modules>
   </component>
 </project>
-
