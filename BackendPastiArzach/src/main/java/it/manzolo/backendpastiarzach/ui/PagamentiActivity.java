@@ -93,7 +93,7 @@ public class PagamentiActivity extends Activity {
 
             buoniAdapter = new SpinBuonipastoAdapter(PagamentiActivity.this, android.R.layout.simple_spinner_item, buoni);
             ddBuono.setAdapter(buoniAdapter);
-            ddBuono.setSelection(2);
+            ddBuono.setSelection(1);
 
         } catch (final Exception e) {
             new ToolTip(PagamentiActivity.this, e.getMessage(), true);
