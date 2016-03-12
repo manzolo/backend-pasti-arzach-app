@@ -18,7 +18,7 @@ public class ArzachUrls {
     public static final String SOSPENDI_GIORNO_PAGE = "http://fornituracomune.arzach.it/androidadmin/menuSospendiGiorno/";
 
     public static final String APP_VERSION_PAGE = "http://fornituracomune.arzach.it/androidadmin/appCurrentVersion";
-    public static final String APP_DOWNLOAD_PAGE = "http://www.arzach.it/BackendPastiArzach.apk";
+    public static final String APP_DOWNLOAD_PAGE = "http://fornituracomune.arzach.it/BackendPastiArzach.apk";
 
     public static final String PAGAMENTI_LISTA_DIPENDENTI_PAGE = "http://fornituracomune.arzach.it/androidadmin/pagamentiDipendentiList";
     public static final String PAGAMENTI_LISTA_BUONIPASTO_PAGE = "http://fornituracomune.arzach.it/androidadmin/PagamentiBuoniList";

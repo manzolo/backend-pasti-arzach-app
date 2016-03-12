@@ -139,6 +139,7 @@ public class PagamentiActivity extends Activity {
                                             new ToolTip(PagamentiActivity.this, "Errore nell'invio del pagamento (0x10)", true);
                                             return;
                                         }
+
                                         // Si esegue la POST
                                         try {
                                             HttpResponse response = httpclient.execute(httppost);
@@ -160,7 +161,7 @@ public class PagamentiActivity extends Activity {
                                             return;
                                         }
 
-                                        ddBuono.setSelection(2);
+                                        ddBuono.setSelection(1);
                                         ddUser.setSelection(0);
                                         euro.setText("0");
                                         numerobuoni.setText("0");
