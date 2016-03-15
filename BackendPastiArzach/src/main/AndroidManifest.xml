@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="it.manzolo.backendpastiarzach"
     android:versionCode="1"
-    android:versionName="1.1002">
+    android:versionName="1.1003">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -29,19 +29,19 @@
         </activity>
         <activity
             android:name="it.manzolo.backendpastiarzach.ui.MenuActivity"
-            android:label="@string/title_activity_menu"></activity>
+            android:label="@string/title_activity_menu"/>
         <activity
             android:name="it.manzolo.backendpastiarzach.StandardActivity"
-            android:label="@string/title_activity_standard"></activity>
+            android:label="@string/title_activity_standard"/>
         <activity
             android:name="it.manzolo.backendpastiarzach.ui.HomeActivity"
-            android:label="@string/title_activity_home"></activity>
+            android:label="@string/title_activity_home"/>
         <activity
             android:name="it.manzolo.backendpastiarzach.RiepilogoGiornalieroActivity"
-            android:label="@string/title_activity_riepilogo_giornaliero"></activity>
+            android:label="@string/title_activity_riepilogo_giornaliero"/>
         <activity
             android:name="it.manzolo.backendpastiarzach.ui.PagamentiActivity"
-            android:label="@string/title_activity_pagamenti"></activity>
+            android:label="@string/title_activity_pagamenti"/>
     </application>
 
 </manifest>
